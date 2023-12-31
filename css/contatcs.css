@@ -1,0 +1,390 @@
+.contacts{ 
+    padding: 4% 0;
+    background-color: #ecf4ff;
+}
+
+.contacts_con{ 
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: ;
+}
+
+.logo_block{ 
+    width: 26%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+    margin-right: 7%;
+}
+
+.logo_block img{ 
+    width: 80%;
+    margin: 0 auto 5% auto;
+}
+
+.logo_block h4{ 
+    font-size: 1vw;
+    opacity: 70%;
+    text-align: center;
+}
+
+.contacts_repair{ 
+    width: 26%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+    margin-right: 10%;
+}
+
+.contacts_repair h3{ 
+    font-size: 1.5vw;
+    color: #180A53;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+}
+
+.contacts_repair h4{ 
+    font-size: 1.4vw;
+    margin-bottom: 5%;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.contacts_repair h4:last-child{ 
+    margin-bottom: 0;
+}
+
+.contacts_repair h4:hover{ 
+    color: #ED145B;
+}
+
+.forclients{ 
+    width: 26%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+    margin-right: 3%;
+}
+
+.forclients h3{ 
+    font-size: 1.5vw;
+    color: #180A53;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+}
+
+.forclients h4{ 
+    font-size: 1.4vw;
+    margin-bottom: 5%;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.forclients h4:last-child{ 
+    margin-bottom: 0;
+}
+
+.forclients h4:hover{ 
+    color: #ED145B;
+}
+
+
+.number_block{ 
+    width: 25%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+}
+
+.number_block h4{ 
+    font-size: 1.3vw;
+    margin: 0 0 10% auto;
+    color: #180A53;
+    cursor: pointer;
+}
+
+.number_block h4:hover{ 
+    color: #ED145B;
+}
+
+.number_block button{ 
+    width: 100%;
+    padding: 8% 0;
+    color: #fff;
+    font-size: 1.2vw;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #ED145B;
+}
+
+.number_block button:active{ 
+    filter: brightness(90%);
+}
+
+.number{ 
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.5%;
+    background-color: ;
+}
+
+.number h3{ 
+    font-size: 1.4vw;
+    margin: 0 0 0 auto;
+    cursor: pointer;
+    color: #180A53;
+}
+
+.number h3:hover{ 
+    color: #ED145B;
+}
+
+.number_circle{
+    width: 35px;
+    height: 35px;
+    margin-right: 2%;
+    background: url(../img/first/number_bg.png) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover; 
+}
+
+
+
+@media (min-width: 320px) and (max-width: 750px) { 
+    .contacts{ 
+        padding: 4% 0;
+        background-color: #ecf4ff;
+    }
+    
+    .contacts_con{ 
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: ;
+    }
+    
+    .logo_block{ 
+        width: 40%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 7% auto;
+        background-color: ;
+    }
+    
+    .logo_block img{ 
+        width: 80%;
+        margin: 0 auto 5% auto;
+    }
+    
+    .logo_block h4{ 
+        font-size: 2vw;
+        opacity: 70%;
+        text-align: center;
+    }
+    
+    .contacts_repair{ 
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: ;
+        margin: 0 auto 10% 0;
+    }
+    
+    .contacts_repair h3{ 
+        font-size: 4vw;
+        color: #180A53;
+        margin-bottom: 5%;
+        text-transform: uppercase;
+    }
+    
+    .contacts_repair h4{ 
+        font-size: 4vw;
+        margin-bottom: 5%;
+        opacity: 70%;
+        cursor: pointer;
+    }
+    
+    .contacts_repair h4:last-child{ 
+        margin-bottom: 0;
+    }
+    
+    .contacts_repair h4:hover{ 
+        color: #ED145B;
+    }
+    
+    .forclients{ 
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: ;
+        margin: 0 auto 10% 0;
+    }
+    
+    .forclients h3{ 
+        font-size: 4vw;
+        color: #180A53;
+        margin-bottom: 5%;
+        text-transform: uppercase;
+    }
+    
+    .forclients h4{ 
+        font-size: 4vw;
+        margin-bottom: 5%;
+        opacity: 70%;
+        cursor: pointer;
+    }
+    
+    .forclients h4:last-child{ 
+        margin-bottom: 0;
+    }
+    
+    .forclients h4:hover{ 
+        color: #ED145B;
+    }
+    
+    
+    .number_block{ 
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        background-color: ;
+    }
+    
+    .number_block h4{ 
+        font-size: 4vw;
+        margin: 0 auto 5% auto;
+        color: #180A53;
+        cursor: pointer;
+    }
+    
+    .number_block h4:hover{ 
+        color: #ED145B;
+    }
+    
+    .number_block button{ 
+        width: 90%;
+        padding: 6% 0;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 3.5vw;
+        border-radius: 30px;
+        cursor: pointer;
+        background-color: #ED145B;
+    }
+    
+    .number_block button:active{ 
+        filter: brightness(90%);
+    }
+    
+    .number{ 
+        width: 78%;
+        height: fit-content;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 1.5%;
+        background-color: ;
+    }
+    
+    .number h3{ 
+        font-size: 5vw;
+        margin: 0 0 0 auto;
+        cursor: pointer;
+        color: #180A53;
+    }
+    
+    .number h3:hover{ 
+        color: #ED145B;
+    }
+    
+    .number_circle{
+        width: 35px;
+        height: 35px;
+        margin-right: 2%;
+        background: url(../img/first/number_bg.png) center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover; 
+    }
+
+    @media (min-width: 400px) and (max-width: 460px){ 
+        .number_circle{
+            width: 38px;
+            height: 38px;
+            margin-right: 2%;
+            background: url(../img/first/number_bg.png) center no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover; 
+        }
+    }
+
+    @media (min-width: 461px) and (max-width: 520px){ 
+        .number_circle{
+            width: 41px;
+            height: 41px;
+            margin-right: 2%;
+            background: url(../img/first/number_bg.png) center no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover; 
+        }
+    }
+
+    @media (min-width: 521px) and (max-width: 580px){ 
+        .number_circle{
+            width: 44px;
+            height: 44px;
+            margin-right: 2%;
+            background: url(../img/first/number_bg.png) center no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover; 
+        }
+    }
+
+    @media (min-width: 581px) and (max-width: 640px){ 
+        .number_circle{
+            width: 47px;
+            height: 47px;
+            margin-right: 2%;
+            background: url(../img/first/number_bg.png) center no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover; 
+        }
+    }
+
+    @media (min-width: 641px) and (max-width: 700px){ 
+        .number_circle{
+            width: 50px;
+            height: 50px;
+            margin-right: 2%;
+            background: url(../img/first/number_bg.png) center no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover; 
+        }
+    }
+
+    @media (min-width: 700px) and (max-width: 750px){ 
+        .number_circle{
+            width: 55px;
+            height: 55px;
+            margin-right: 2%;
+            background: url(../img/first/number_bg.png) center no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover; 
+        }
+    }
+}
